@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test.js",
     "babel1": "babel app.es6 -o app.js",
     "babel2": "babel controller/indexController.es6 -o controller/indexController.js",
     "babel3": "babel controller/initController.es6 -o controller/initController.js",
